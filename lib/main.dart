@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/GET/example_five.dart';
+import 'package:test_app/POST/image_upload.dart';
 import 'package:test_app/POST/signup.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUp(),
+      home: ImageUpload(),
     );
   }
 }
